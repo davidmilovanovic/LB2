@@ -1,12 +1,9 @@
 # Modul 300 - Leistungsbeurteilung 1
 
 ## Inhaltsverzeichnis
- - [Inhaltsverzeichnis](#inhaltsverzeichnis)
  - [Aufgabenstellung](#aufgabenstellung)
- - [Voraussetzungen/WichtigeThemen](#voraussetzungenwichtigethemen)
  - [Netzwerkplan](#netzwerkplan)
  - [Mein Service](#mein-service)
-
  - [Testing](#testing)
 
 
@@ -15,37 +12,7 @@
 Die LB1 besteht darin, ein Service zur Verfügung zu stellen. Dieser Service sollte mit dem starten eines Vagrantfiles ohne weitere Konfigurationen starten. Das ganze sollte anschliessend mit Markdown dokumentiert werden. Die Bewertungskriterien findet man [hier](https://bscw.tbz.ch/bscw/bscw.cgi/d29084554/M300_LB1_Bewertungsraster.pdf?op=get&open=1).
 
 ## Voraussetzungen/WichtigeThemen
-Damit der Service erstellt werden kann, müssen vorerst einige Dinge noch erledigt werden:
 
-**GitHub Account**<br />
-GitHub dient sozusagen als Cloud-Speicher unserer Dateien und Dokumentationen.
-
-**ssh Keys**<br />
-Die ssh schlüssel ermöglichen uns, eine verschlüsselte Netzwerkverbindung aufzubauen.
-
-**Git Client**<br />
-Um unsere Dateien von GitHub auf unseren lokalen Comupter zu holen, benötigen wir Git client. Unter Windows nennt sich das Git/Bash.
-
-**VirtualBox**<br />
-Zueinem benötigen wir einen Hypervisor, welcher unsere VMs erstellt. In unserem Fall benutzen wir VirtualBox, da bei Vagrant Boxes dieser Hypervisor überall unterstützt wird.
-
-**Vagrant**<br />
-Damit unser Client überhaupt Vagrant versteht, muss Vagrant von ihrer Webseite heruntergeladen werden.
-
-**Visual Studio Code**<br />
-Alle lokalen Repositories an einem Ort zu verwalten und die dazugehörigen Dateien zu bearbeiten ermöglicht uns Visual Studio Code. Stduio Code kann man sich ganz einfach von ihrer Webseite herunterladen.
-
-**Linux** <br />
-Linux ist der Kernel eines Betriebssystems. Linux ist für unterschiedliche Hardware verfügbar und ist Multiuser und Multitasking fähig.
-
-**Virtualisierung** <br />
- Anstelle einer hardwarebasierten Komponente eine softwarebasierte Komponente erstellt.
-
- **Versionsverwaltung** <br />
-System zur erfassung von Änderungen an Dokumenten oder Dateien verwendet wird.
-
-Die genaue Anleitung für die installationen:
-[Kapitel 20](https://github.com/mc-b/M300/blob/master/10-Toolumgebung/README.md)
 
 ## Netzwerkplan
 
