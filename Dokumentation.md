@@ -2,6 +2,7 @@
 
 ## Inhaltsverzeichnis
  - [Service](#Service)
+ - [Dockerbefehle](#Dockerbefehle)
  - [Technische Angaben](#Technische-Angaben)
  - [Testing](#testing)
  - [Troubleshooting](#Troubleshooting)
@@ -12,6 +13,19 @@
 Die LB2 besteht darin, ein Service zur Verfügung zu stellen. Dieser Service sollte mit Docker realisiert werden. Das ganze sollte anschliessend mit Markdown dokumentiert werden. Die Bewertungskriterien findet man [hier](https://bscw.tbz.ch/bscw/bscw.cgi/d29299146/LB2%20Anforderungen.pdf).
 
 Bei meinem Service werden zwei Container erstellt. In dem einem Container befindet sich phpMyAdmin mit Apache2. In dem anderen Container befindet sich eine MySql Datenbank. MySql soll mit phpMyAdmin kommunizieren.
+
+## Dockerbefehle
+
+|Befehl | Effekt|
+|:--:|:--:|
+|docker build|Aus einem Dockerfile heraus ein Image bauen|
+|docker run|Container starten|
+|docker start|Einen gestoppten Container starten|
+|docker stop|Einen Container stoppen|
+|docker kill|Einen Container gewaltsam stoppen|
+|docker ps|Alle laufenden Container auflisten|
+|docker compose|Multi-container Umgebung starten|
+
 
 ## Technische Angaben
 ![Image](image/plan.png)  
