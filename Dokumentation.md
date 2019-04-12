@@ -161,6 +161,8 @@ CMD ["mysqld"]
 * Das Mounten von Volumes braucht Shared Drives für Linux-Container.
 * Auf die Versionen achten. Manche Versionen sind nicht miteinander kompatibel.
 
+
+
 ### Ressourcen-Begrenzung
 |Suffix | Effekt|
 |:--:|:--:|
@@ -171,4 +173,4 @@ CMD ["mysqld"]
 
 ## Reflexion
 
-Ich habe mich schon die letzen Monaten die ganze Zeit gefragt, was eigentlich Docker ist und wie es funktioniert. Ich konnte aus dem Internet nie wirklich verstehen, was der Sinn von Docker ist. Durch die guten Dokumentationen auf GitHub konnte ich verstehen, wie alles genau funktioniert und wie man eine Docker Umgebung selber bauen kann. Das Modul war sehr anspruchsvoll, jedoch sehr lehrreich. 
+Ich habe mich schon die letzten Monaten die ganze Zeit gefragt, was eigentlich Docker ist und wie es funktioniert. Ich konnte aus dem Internet nie wirklich verstehen, was der Sinn von Docker ist. Durch die guten Dokumentationen auf GitHub konnte ich verstehen, wie alles genau funktioniert und wie man eine Docker Umgebung selber bauen kann. Das Modul war sehr anspruchsvoll, jedoch sehr lehrreich. Ich bin sehr stolz auf meine Arbeit, da ich mir sehr viel Mühe gegeben habe. Viele Stunden wurden darin investiert, welche ich aber auf keinen Fall bereue, da Docker die Zukunft ist und ich später sicher nochmals etwas damit zu tun habe werde.
