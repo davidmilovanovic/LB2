@@ -21,17 +21,27 @@ ENV APACHE_LOG_DIR /var/log/apache2
 RUN mkdir -p /var/lock/apache2 /var/run/apache2
 
 
-#Für phpMyAdmin prompt-Config
+#Fï¿½r phpMyAdmin prompt-Config
 
-RUN debconf-set-selections <<< "phpmyadmin phpmyadmin/dbconfig-install boolean true"
+#RUN debconf-set-selections <<< "phpmyadmin phpmyadmin/dbconfig-install boolean true"
 
-RUN debconf-set-selections <<< "phpmyadmin phpmyadmin/app-password-confirm password asdf123"
+#RUN debconf-set-selections <<< "phpmyadmin phpmyadmin/app-password-confirm password asdf123"
 
-RUN debconf-set-selections <<< "phpmyadmin phpmyadmin/mysql/admin-pass password asdf123"
+#RUN debconf-set-selections <<< "phpmyadmin phpmyadmin/mysql/admin-pass password asdf123"
 
-RUN debconf-set-selections <<< "phpmyadmin phpmyadmin/mysql/app-pass password asdf123"
+#RUN debconf-set-selections <<< "phpmyadmin phpmyadmin/mysql/app-pass password asdf123"
 
-RUN debconf-set-selections <<< "phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2"
+#RUN debconf-set-selections <<< "phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2"
+
+RUN echo 'phpmyadmin phpmyadmin/dbconfig-install boolean true' | debconf-set-selections
+
+RUN echo 'phpmyadmin phpmyadmin/app-password-confirm password asdf123' | debconf-set-selections
+
+RUN echo 'phpmyadmin phpmyadmin/mysql/admin-pass password asdf123' | debconf-set-selections
+
+RUN echo 'phpmyadmin phpmyadmin/mysql/app-pass password asdf123' | debconf-set-selections
+
+RUN echo 'phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2' | debconf-set-selections
 
 
 #Installation phpMyAdmin
