@@ -16,7 +16,11 @@ Bei meinem Service werden zwei Container erstellt. In dem einem Container befind
 ## Technische Angaben
 ![Image](image/plan.png)  
 
-Man braucht eine Linux Desktop Umgebung.Um Container 1 zu starten geht man in den Ordner webserver rein. Dort befindet sich ein Dockerfile. In diesem Ordner gibt man dann diese Befehle ein:
+Man braucht eine Linux Desktop Umgebung. Dort muss man noch Docker installieren. Hier wäre der entsprechende Befehl:
+~~~~
+sudo apt-get install docker.io
+~~~~
+Um Container 1 zu starten geht man in den Ordner webserver rein. Dort befindet sich ein Dockerfile. In diesem Ordner gibt man dann diese Befehle ein:
 ~~~~
 docker build -t webserver .
 docker run --rm -d -p 8080:80 webserver
@@ -143,4 +147,4 @@ CMD ["mysqld"]
 
 ## Reflexion
 
-Ich habe mich schon die letzen Monaten die ganze Zeit gefragt, was eigentlich Docker ist und wie es funktioniert. Ich konnte aus dem Internet nie wirklich verstehen, was der Sinn von Docker ist. Durch die guten Dokumentationen auf GitHub konnte ich verstehen, wie alles genau funktioniert und wie man eine Docker Umgebung selber bauen kann.
+Ich habe mich schon die letzen Monaten die ganze Zeit gefragt, was eigentlich Docker ist und wie es funktioniert. Ich konnte aus dem Internet nie wirklich verstehen, was der Sinn von Docker ist. Durch die guten Dokumentationen auf GitHub konnte ich verstehen, wie alles genau funktioniert und wie man eine Docker Umgebung selber bauen kann. Das Modul war sehr anspruchsvoll, jedoch sehr lehrreich. 
