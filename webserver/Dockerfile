@@ -21,7 +21,7 @@ ENV APACHE_LOG_DIR /var/log/apache2
 RUN mkdir -p /var/lock/apache2 /var/run/apache2
 
 
-#F�r phpMyAdmin prompt-Config
+#Für phpMyAdmin prompt-Config, das kommentierte sind die alten Befehle, welche ich umschreiben musste
 
 #RUN debconf-set-selections <<< "phpmyadmin phpmyadmin/dbconfig-install boolean true"
 
