@@ -142,7 +142,17 @@ CMD ["mysqld"]
 ![Image](image/phpmyadmin.png)
 
 ## Troubleshooting
+* Sicherstellen, dass man Root-Rechte hat.
+* Schreib- und Leserechte sollten richtig verteilt sein.
+* Das Mounten von Volumes braucht Shared Drives für Linux-Container.
+* Auf die Versionen achten. Manche Versionen sind nicht miteinander kompatibel.
 
+### Ressourcen-Begrenzung
+|Suffix | Effekt|
+|:--:|:--:|
+|-m|RAM begrenzen. (-m 4m ist z.B. 4MB)|
+|--kernel-memory|Kernel-Memory begrenzen|
+|--cpus=<value>|Stellt ein wie viel CPU-Ressourcen der Container benutzen darf (z.B bei 2 CPUs kann man 1.5 eingeben um nicht alles zu benutzen|
 
 
 ## Reflexion
